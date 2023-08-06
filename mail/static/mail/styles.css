@@ -1,0 +1,52 @@
+textarea {
+    min-height: 400px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    text-align: end;
+}
+
+.row {
+    border: 1px solid rgb(188, 186, 186); 
+    height: 50px;
+    padding: 2px;
+    align-items: center;
+    align-content: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+a b {
+    color: black;
+}
+
+.container1 {
+    position: relative;
+    border: 1px solid rgb(188, 186, 186); 
+    background-color: white;
+    color: black;
+    margin: 3vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+hr {
+    background-color: black;
+}
+
+button {
+    margin-right: 5px;
+}
+
+.main {
+    font-size: larger;
+}
