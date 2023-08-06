@@ -113,9 +113,9 @@ function send_email(event) {
   .then(result => {
       // Print result
       console.log(result);
-      
+      load_mailbox('sent');
   });
-  load_mailbox('sent');
+
 
 }
 
@@ -191,7 +191,7 @@ function load_email(id) {
         method: 'PUT',
         body: JSON.stringify({
             archived: !email.archived
-        }),
+        })
       }).then(() => {
         load_mailbox('inbox');
       });
