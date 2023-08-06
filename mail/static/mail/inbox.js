@@ -192,8 +192,9 @@ function load_email(id) {
         body: JSON.stringify({
             archived: !email.archived
         }),
-      })
-      load_mailbox('inbox');
+      }).then(() => {
+        load_mailbox('inbox');
+      });
     };
 
     const reply_button = document.createElement('button');
