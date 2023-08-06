@@ -226,6 +226,7 @@ function load_email(id) {
 
     single_email.append(sender_div);
     single_email.append(recipients_div);
+    single_email.append(timestamp_div);
     single_email.append(
       document.createElement('br')
     );
